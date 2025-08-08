@@ -2,6 +2,15 @@
 
 Approvr is a proof-of-concept system that harnesses the power of the Hedera Consensus Service (HCS) and AI agents to facilitate multi-party approvals directly through a Telegram bot. It provides a transparent, immutable, and verifiable way to record group decisions on-chain.
 
+<img width="1187" height="963" alt="image" src="https://github.com/user-attachments/assets/b07ec0aa-057a-4e26-ba38-a2f699ffb230" />
+<img width="1184" height="1335" alt="image" src="https://github.com/user-attachments/assets/e96e1aa8-f875-40a9-b845-9068763a05a0" />
+
+Demo Video: https://youtu.be/vy8UhlWIcDQ
+
+**HashScan Links: **
+
+[https://hashscan.io/testnet/topic/0.0.6533923](https://hashscan.io/testnet/topic/0.0.6533923)
+[https://hashscan.io/testnet/topic/0.0.6533004](https://hashscan.io/testnet/topic/0.0.6533004)
 
 ## **Project Description**
 
