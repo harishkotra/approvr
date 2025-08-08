@@ -1,0 +1,25 @@
+{
+  "name": "approvr",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "@hashgraph/sdk": "^2.70.0",
+    "@langchain/core": "^0.3.68",
+    "@langchain/openai": "^0.6.7",
+    "dotenv": "^17.2.1",
+    "express": "^5.1.0",
+    "hedera-agent-kit": "^3.0.7",
+    "langchain": "^0.3.30",
+    "qrcode": "^1.5.4",
+    "telegraf": "^4.16.3",
+    "zod": "^3.25.76"
+  }
+}
