@@ -85,7 +85,8 @@ The project is composed of three main components:
 2.  **Start the Telegram Bot:**
     ```bash
     node telegram-bot.js
-    ```3.  **(Optional) Start the Web Server for Mini App development:**
+    ```
+3.  **(Optional) Start the Web Server for Mini App development:**
     ```bash
     node server.js
     ```
@@ -140,14 +141,9 @@ The future of Approvr is to close the loop between consensus and execution. Once
 
 To build towards this vision, the following steps are planned:
 
-1.  **Implement Secure Account Linking:** Replace the current simplified approval mechanism with a full cryptographic challenge-response flow. The bot will require users to sign a unique message to prove ownership of their Hedera account, securely linking it to their Telegram ID.
-
-2.  **Fully Integrate the Telegram Mini App:** Wire the `/approve` command to open the secure web app served by `server.js`. This will provide a superior user interface for reviewing proposal details and confirming approvals, especially for complex transactions.
-
-3.  **Optimize for Serverless Deployment:** Refactor `telegram-bot.js` to use a **webhook** instead of long polling. This will allow the entire application to be deployed efficiently on serverless platforms like Vercel or Netlify, dramatically improving scalability and reliability.
-
-4.  **Persistent Storage:** Move state management from in-memory Maps to a persistent database solution (e.g., Vercel KV, Redis, or a traditional SQL database) to reliably store user-account links and proposal metadata.
-
-5.  **Direct SDK Optimization:** For performance-critical paths like transaction submission, bypass the LLM reasoning step in the agent kit and use the Hedera SDK directly. This will prevent potential timeouts (e.g., `TRANSACTION_EXPIRED` errors) in a serverless environment and improve response times.
-
-6.  **Proactive Notifications:** Enhance the bot to automatically notify all required approvers when a new proposal is created that needs their attention.
+[ ] - **Implement Secure Account Linking:** Replace the current simplified approval mechanism with a full cryptographic challenge-response flow. The bot will require users to sign a unique message to prove ownership of their Hedera account, securely linking it to their Telegram ID.
+[ ] - **Fully Integrate the Telegram Mini App:** Wire the `/approve` command to open the secure web app served by `server.js`. This will provide a superior user interface for reviewing proposal details and confirming approvals, especially for complex transactions.
+[ ] - **Optimize for Serverless Deployment:** Refactor `telegram-bot.js` to use a **webhook** instead of long polling. This will allow the entire application to be deployed efficiently on serverless platforms like Vercel or Netlify, dramatically improving scalability and reliability.
+[ ] - **Persistent Storage:** Move state management from in-memory Maps to a persistent database solution (e.g., Vercel KV, Redis, or a traditional SQL database) to reliably store user-account links and proposal metadata.
+[ ] - **Direct SDK Optimization:** For performance-critical paths like transaction submission, bypass the LLM reasoning step in the agent kit and use the Hedera SDK directly. This will prevent potential timeouts (e.g., `TRANSACTION_EXPIRED` errors) in a serverless environment and improve response times.
+[ ] - **Proactive Notifications:** Enhance the bot to automatically notify all required approvers when a new proposal is created that needs their attention.
