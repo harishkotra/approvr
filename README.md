@@ -7,10 +7,10 @@ Approvr is a proof-of-concept system that harnesses the power of the Hedera Cons
 
 Demo Video: https://youtu.be/vy8UhlWIcDQ
 
-**HashScan Links: **
+**HashScan Links:**
 
-[https://hashscan.io/testnet/topic/0.0.6533923](https://hashscan.io/testnet/topic/0.0.6533923)
-[https://hashscan.io/testnet/topic/0.0.6533004](https://hashscan.io/testnet/topic/0.0.6533004)
+- [https://hashscan.io/testnet/topic/0.0.6533923](https://hashscan.io/testnet/topic/0.0.6533923)
+- [https://hashscan.io/testnet/topic/0.0.6533004](https://hashscan.io/testnet/topic/0.0.6533004)
 
 ## **Project Description**
 
